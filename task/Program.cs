@@ -103,7 +103,6 @@ string RemovingSpaces (string input)
 
 Console.WriteLine($"\n\nЗадача 52: Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.");
 Console.Write("\nMассив возьмем из предыдущей задачи (№ 47), преобразовав double в int32.\n");
-
 int[,] arrayWhole = new int[m, n];
 arrayWhole = TransformationArrayWhole(array);
 
